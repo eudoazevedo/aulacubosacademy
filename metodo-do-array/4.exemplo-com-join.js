@@ -1,0 +1,9 @@
+function inverterSting(texto){
+    const arrayDeLetras = texto.split("");
+    arrayDeLetras.reverse();
+    
+    const textoInvertido = arrayDeLetras.join("");
+    console.log(textoInvertido);
+}
+
+inverterSting("Cubos academy");
